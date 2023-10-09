@@ -31,9 +31,9 @@ public class lucky7 {
 			numerot[0] = rand.nextInt(10) + 1;
 			numerot[1] = rand.nextInt(10) + 1;
 			numerot[2] = rand.nextInt(10) + 1;
-			System.out.println(numerot[0]);
-			System.out.println(numerot[1]);
-			System.out.println(numerot[2]);
+			System.out.println("===============");
+			System.out.println("|| " + numerot[0] + " | " + numerot[1] + " | " + numerot[2] + " ||");
+			System.out.println("===============");
 			
 			// Tarkastetaan voitot
 			for ( int i = 0; i < 3; i++) {
